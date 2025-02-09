@@ -31,7 +31,7 @@ const LayoutHeader = ({ collapsed, setCollapsed }: LayoutHeaderProps) => {
                 </div>
             </div>
             <div className="logo">
-                <h1>LOGO</h1>  {/* <img src="//cdn.beymen.com/assets/desktop/img/beymen-logo-dot-blue.svg" alt="logo" height={"24px"} width={"307px"} /> */}
+                <h1>LOGO</h1>
             </div>
             <div className="profile">
                 <Profile />
