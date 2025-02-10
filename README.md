@@ -1,4 +1,4 @@
-🛍️ Order Control Case -> https://order-control-case.vercel.app
+🛍️ Order Control Case -> https://order-control-case.vercel.app  
 React tabanlı proje. Vite, TypeScript ve Ant Design kullanılarak geliştirilmiştir.  
 
 🚀 Teknolojiler  
