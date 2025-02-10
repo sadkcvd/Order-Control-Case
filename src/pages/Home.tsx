@@ -26,8 +26,7 @@ type FiltersState = Record<string, string | null>;
 const Home: React.FC = () => {
     const [headerStatsInfo, setHeaderStatsInfo] = useState<HeaderStatsType | null>(null);
     const [tableData, setTableData] = useState<Orders | null>(null);
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const [total, setTotal] = useState<string | null>(null);
+    /*  const [total, setTotal] = useState<string | null>(null); */
     const [filteredTableData, setFilteredTableData] = useState<Orders[]>([]);
     const [definedFilters, setDefinedFilters] = useState<FiltersState>({});
     const navigate = useNavigate();
@@ -44,15 +43,15 @@ const Home: React.FC = () => {
         setFilteredTableData(data);
     };
 
-    const getTotal = async () => {
-        const data = await get("total");
-        setTotal(data);
-    };
+    /*  const getTotal = async () => {
+         const data = await get("total");
+         setTotal(data);
+     }; */
 
     useEffect(() => {
         getHeaderStats();
         getTableDatas();
-        getTotal();
+        /* getTotal(); */
     }, []);
 
     const filters: FilterType[] = [
